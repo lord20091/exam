@@ -1,0 +1,451 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #014E56;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header img {
+    padding: 77px 165px;
+}
+
+.header ul {
+    display: flex;
+    gap: 40px;
+    margin-left: 350px;
+}
+
+.header ul li {
+    list-style: none;
+}
+
+.header ul li a {
+    text-decoration: none;
+    font-family: Livvic;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;
+    color: white;
+    transition: 300ms;
+
+}
+
+ul li a:hover {
+    color: orange;
+}
+
+.header button {
+    margin-right: 165px;
+    width: 153px;
+    height: 48px;
+    border: 2px solid white;
+    background: none;
+    border-radius: 30px;
+    font-family: Livvic;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: center;
+    color: white;
+    transition: 300ms;
+
+
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+
+.section-one {
+    background-color: #014E56;
+    display: flex;
+    padding: 30px 165px;
+    /* margin-bottom: 100px; */
+}
+
+.section-one h1 {
+    width: 350px;
+    height: 100px;
+    font-family: Livvic;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 100px;
+    text-align: left;
+    color: white;
+
+
+}
+
+.section-one p {
+    width: 730px;
+    height: 112px;
+    font-family: Livvic;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;
+    color: white;
+    margin-top: 44px;
+    margin-bottom: 100px;
+
+
+}
+
+.section-two {
+    background-color: #004047;
+}
+
+.section-two h2 {
+    font-family: Livvic;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    padding-top: 71px;
+    color: white;
+
+}
+
+.section-two-cards {
+    padding: 69.5px 167px;
+    display: flex;
+    gap: 30px;
+    padding-bottom: 110px;
+
+}
+
+.cards {
+    width: 350px;
+    height: 274.73px;
+    background-color: #012F34;
+
+}
+
+.cards img {
+    padding: 44px 127px;
+}
+
+.cards h3 {
+    color: #79C8C7;
+    font-family: Livvic;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: center;
+    transform: translateY(-25px);
+
+}
+
+.cards p {
+    color: white;
+    font-family: Livvic;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    transform: translateY(-25px);
+
+}
+
+.section-three {
+    background-color: #012F34;
+}
+
+.section-three h2 {
+    font-family: Livvic;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    color: white;
+    padding-top: 114px;
+
+}
+
+.section-three img {
+    padding: 52px 165px;
+    padding-bottom: 100px;
+}
+
+.images {
+    display: flex;
+    align-items: center;
+}
+
+.img {
+    margin-left: -250px;
+}
+
+.section-four {
+    background-color: #F67E7E;
+    display: flex;
+    align-items: center;
+}
+
+.section-four h2 {
+    font-family: Livvic;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+    color: #012F34;
+    padding: 76px 263px;
+
+}
+
+.section-four button {
+    margin-right: 165px;
+    width: 153px;
+    height: 48px;
+    border: 2px solid black;
+    background: none;
+    border-radius: 30px;
+    font-family: Livvic;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: center;
+    color: black;
+    transition: 300ms;
+}
+
+.btn-two:hover {
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+
+}
+
+.footer {
+    background-color: #002529;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.footer img {
+    padding: 48px 159px;
+}
+
+@media (max-width:375px) {
+
+    .header img {
+        padding: 48px 24px;
+
+    }
+
+    .section-one {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section-one h1 {
+        text-align: center;
+        font-family: Livvic;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 40px;
+        text-align: center;
+
+    }
+
+    .section-one p {
+        width: 327px;
+        height: 196px;
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 28px;
+        text-align: center;
+        transform: translateY(-10px);
+
+    }
+
+    .section-two h2 {
+        font-family: Livvic;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 32px;
+        text-align: center;
+    }
+
+    .section-two-cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+
+    .section-three h2 {
+        font-family: Livvic;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 32px;
+        text-align: center;
+
+    }
+
+    .section-three img {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 1px;
+    }
+
+    .images {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .img {
+        margin-top: -100px;
+    }
+
+    .section-four {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section-four h2 {
+        font-family: Livvic;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 32px;
+        text-align: center;
+
+
+    }
+
+    .section-four button {
+        transform: translateY(-55px);
+        margin-left: 150px;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+@media (max-width:768px) {
+    .header img {
+        padding: 72px 39px;
+    }
+
+    .header ul {
+        margin-left: 50px;
+    }
+
+    .header button {
+        margin-left: 50px;
+    }
+
+    .section-one {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section-one h1 {
+        font-family: Livvic;
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 56px;
+        text-align: center;
+
+    }
+
+    .section-one p {
+        font-family: Livvic;
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 28px;
+        text-align: center;
+        width: 457px;
+        height: 140px;
+        margin-top: -20px
+    }
+
+    .section-two h2 {
+        font-family: Livvic;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 32px;
+        text-align: center;
+        margin-left: -70px;
+        padding-top: 100px;
+
+    }
+
+    .section-two-cards {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-left: -70px;
+        gap: 11px;
+    }
+
+    .cards {
+        width: 251px;
+        height: 223px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .section-three {
+        background-color: #004047;
+    }
+
+    .section-three h2 {
+        font-family: Livvic;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 32px;
+        text-align: center;
+
+    }
+
+    .images {
+        margin-left: -100px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .section-four h2 {
+        font-family: Livvic;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 32px;
+        text-align: left;
+        margin-left: -180px;
+    }
+}
